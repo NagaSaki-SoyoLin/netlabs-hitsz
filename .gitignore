@@ -2,3 +2,6 @@
 /.vscode
 log
 out.pcap
+/testing/Temporary/
+/commit.patch
+/.commit.patch-*.tmp

@@ -1,4 +1,4 @@
-.PHONY: all build run clean format
+.PHONY: all build run clean format diff
 
 # Build directory
 BUILDDIR := build
@@ -18,6 +18,10 @@ build:
 
 run:
 	sudo ./build/web_server
+
+# Export committed lab changes against the course baseline.
+diff:
+	cmake -P tools/export_patch.cmake
 
 # Clean target
 clean:

@@ -1,0 +1,9 @@
+# Keep text files consistent when students work on Windows and Linux.
+* text=auto eol=lf
+
+# Preserve course libraries, packet captures and web resources byte for byte.
+*.lib binary
+*.pcap binary
+*.jpg binary
+*.jpeg binary
+*.png binary
